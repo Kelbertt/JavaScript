@@ -1,0 +1,34 @@
+Revisão aula 6 - Tratamento de Dados
+
+
+Q01
+
+Como é possivel guardar o valor digitado em um prompt() dentro de uma variável?
+
+R:
+Por meio da imersão dos dados do prompt em um operador de atribuição, normalmente var ou let,
+como vemos no exemplo : var n1 = window.prompt(), assim guardando o valor do prompt em uma variável
+ 
+Q02
+
+Como fazer com que um número digitado em um prompt() possa ser usado em cálculos?
+
+R:
+Converter o valor digitado no prompt de string para um número, 
+Normalmente utilizamos os comandos como Number.parseInt(b) ou Number.parseFloat(n)
+
+
+
+Q03
+
+Como transformar um texto todo para letras maiúsculas?
+
+R:
+
+Utizando a template string ${} para guardar a variável atribuida + .toUppercase
+Ex:
+var name = window.prompt ('Qual é o seu nome')
+document.write("Seu nome em maiúsculas é ${name.toUppercase}")
+
+
+Q04

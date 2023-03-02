@@ -1,0 +1,33 @@
+Revisão aula 05
+
+Q01
+
+O que é uma variável?
+
+R:
+Variável na programação, é um objeto capaz de reter e representar um valor ou expressão.
+
+Q02
+
+Como declarar uma variável numérica inteira ou real usando JS?
+
+R:
+No node.js declarar por exemplo : var X = 6 , no qual var é a palavra chave utilizada para declarar uma variável e X será a expressão que irá receber o valor númerico real.
+
+Q03 
+
+Quais são os tipos primitivos do JS?
+
+R:
+String = Expressão entre "
+Number = Qualquer número real
+Boolean = Valores Lógicos
+Null = Nulo
+Undefinied = Indefinido
+
+Q04
+
+O que significa colocar o valor null dentro de uma variável?
+
+R:
+A variável terá um efeito de valor nulo, mas será identificado com objecc.
