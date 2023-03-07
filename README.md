@@ -1,2 +1,2 @@
 # JavaScript
- Conteúdo do Curso de JS do Curso em Vídeo
+ Códigos e Conteúdos da Linguagem JavaScript.
