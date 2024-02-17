@@ -1,0 +1,18 @@
+
+h1{
+    color:blueviolet;
+    border-color: yellow;
+    border-width: 4px;
+    border-style: dashed;
+}
+
+li{
+    color: rgb(10, 247, 42);
+}
+
+body{
+    background-color: antiquewhite;
+    background-image:url('https://www.spacex.com/sites/spacex/files/amos17_v2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
