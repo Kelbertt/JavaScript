@@ -1,0 +1,15 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:  500;
+    line-height: 1;
+}
+
+h1{
+    font-family: 'Geostar';
+    margin: 45px auto 100px auto;
+    width: 15%;
+    border: 2px solid;
+    padding: 10px;
+    
+}
