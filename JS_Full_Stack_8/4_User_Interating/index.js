@@ -22,3 +22,5 @@ if (velocity <= 0){
 } else {
     alert("Velocidade perigosa. Controle automático forçado.")
 }
+
+alert("Piloto: " + pilotname + "\n Velocidade: " + velocity + "Km/s")
