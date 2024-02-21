@@ -1,2 +1,2 @@
 # JavaScript
- Firts Step in JS with help of CV
+ Firts Step in JS 
