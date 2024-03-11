@@ -24,7 +24,14 @@ function speedUp(velocity){
 
 function slowDown(velocity){
     let newVelocity = velocity - 5
+    if(newVelocity < 0){
+        newVelocity = 0
+    }
     return  newVelocity
+}
+
+function printSpaceshipBoardData(name, velocity) {
+    alert("Espaçonave: " + name + "\nVelocidade: " + velocida + "km/s")
 }
 
 do {
