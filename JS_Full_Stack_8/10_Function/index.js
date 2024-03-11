@@ -17,4 +17,4 @@ function showMenu() {
     return option
 }
 
-console.log(showMenu)
+console.log(showMenu())
