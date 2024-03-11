@@ -17,6 +17,16 @@ function showMenu() {
     return option
 }
 
+function speedUp(velocity){
+    let newVelocity = velocity + 5
+    return newVelocity
+}
+
+function slowDown(velocity){
+    let newVelocity = velocity - 5
+    return  newVelocity
+}
+
 do {
     chosenOption = showMenu()
 } while(chosenOption != "4")
