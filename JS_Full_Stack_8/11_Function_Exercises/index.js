@@ -1,4 +1,3 @@
-let velocity = "150 km/s"
 
 function slowDown(velocity) {
     let deceleration = 20
