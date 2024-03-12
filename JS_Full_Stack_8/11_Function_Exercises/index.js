@@ -1,10 +1,9 @@
-
-function slowDown(velocity) {
+function slowDown(velocity, printer) {
     let deceleration = 20
 
     while(velocity > 0) {
         printer(velocity)
-        velocity -= deceleracion
+        velocity -= deceleration
     }
 
     alert("Nave parada. As comportas podem ser abertas.")
