@@ -8,11 +8,11 @@ const hitchedSpaceships = [
 
 let crewGreaterThan9 = hitchedSpaceships.filter(spaceship => {
     return spaceship[1] > 9
-}).map(spaceship =>{
+}).map(spaceship => {
     return spaceship[0]
 })
 
-let ongoingHitchPlataform = hitchedSpaceships.findIndex(spaceship => {
+let ongoingHitchPlatform = hitchedSpaceships.findIndex(spaceship => {
     return spaceship[2] == false
 })
 
@@ -20,6 +20,8 @@ let highlightedSpaceships = hitchedSpaceships.map(spaceship => {
     return spaceship[0].toUpperCase()
 })
 
-let message = "Espaçonaves com mais de 9 tripulantes : " + crewGreaterThan9.join( ", ")
-message += "\nPlataform com processo de engate: " + (ongoingHitchPlataform + 1)
+let message = "Espaçonaves com mais de 9 tripulantes: " + crewGreaterThan9.join( ", ")
+message += "\nPlataform com processo de engate: " + (ongoingHitchPlatform + 1)
 message += "\nEspaçonaves destacadas: " + highlightedSpaceships.join(", ")
+
+alert(message)
