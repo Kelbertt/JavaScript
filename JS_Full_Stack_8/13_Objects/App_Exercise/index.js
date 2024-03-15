@@ -13,7 +13,7 @@ function registerSpaceship() {
 }
 
 function acelerate() {
-    let acceleration = prompt("Quanto você quer acelerar? (km/s)")
+    let acceleration = Number(prompt("Quanto você quer acelerar? (km/s)"))
     spaceship.speedUp(acceleration)
     if(spaceship.velocity > spaceship.maxVelocity) {
         alert( "VELOCIDADE MÁXIMA ULTRAPASSADA!" +
@@ -23,7 +23,7 @@ function acelerate() {
 }
 
 function stop() {
-    alert("Nome: " + spaceship.name + "\nTipo: " + spaceship.type + "\nVelocidade da nave: " + spacceship.velocity + "\nVelocidade Máxima da nave: " + spaceship.maxVelocity)
+    alert("Nome: " + spaceship.name + "\nTipo: " + spaceship.type + "\nVelocidade da nave: " + spaceship.velocity + "\nVelocidade Máxima da nave: " + spaceship.maxVelocity)
     spaceship.velocity = 0
 }
 
