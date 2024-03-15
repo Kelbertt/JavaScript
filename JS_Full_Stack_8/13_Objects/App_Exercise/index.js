@@ -1,7 +1,8 @@
 let spaceship = {
     velocity: 0,
-    speedUp: function(acceleration)
+    speedUp: function(acceleration){
         this.velocity += acceleration
+    }
 }
 
 function registerSpaceship() {
