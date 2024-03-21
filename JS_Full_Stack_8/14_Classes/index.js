@@ -38,5 +38,11 @@ while (chosen != "3") {
     switch(chosenOption) {
         case "1":
             let spaceshipToAdd = createSpaceship()
-    }
+            spaceshipToAdd.hitch()
+            hitchedSpaceships.push(spaceshipToAdd)
+            break
+        case  "2": 
+            printSpaceshipList(hitchedSpaceships)
+            break
+        }
 }
