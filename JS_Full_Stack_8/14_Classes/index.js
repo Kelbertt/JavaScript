@@ -26,11 +26,11 @@ function showMenu() {
 function createSpaceship() {
     let spaceshipName = prompt ("Informe o nome da nave")
     let crewQuantity = prompt("Informe a quantidade de tripulants")
-    let spaceship = new Spaceship(spaceshipName,crewQuantity)
+    let spaceship = new Spaceship(spaceshipName, crewQuantity)
     return spaceship
 }
 
-function printSpaceshipList(hitchedSpaceships) {
+function printSpaceshipList(spaceships) {
     let spaceshipList = " "
     spaceships.forEach((spaceship, index) => {
         spaceshipList += (index + 1) + "- " + spaceship.name + " (" + spaceship.crewQuantity + " Tripulantes)\n"
@@ -39,7 +39,6 @@ function printSpaceshipList(hitchedSpaceships) {
 }
 
 let hitchedSpaceships = []
-
 let chosenOption
 
 while (chosen != "3") {
