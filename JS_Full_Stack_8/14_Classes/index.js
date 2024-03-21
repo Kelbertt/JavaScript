@@ -41,7 +41,7 @@ function printSpaceshipList(spaceships) {
 let hitchedSpaceships = []
 let chosenOption
 
-while (chosen != "3") {
+while (chosenOption != "3") {
     chosenOption = showMenu()
     switch(chosenOption) {
         case "1":
