@@ -30,6 +30,13 @@ function createSpaceship() {
     return spaceship
 }
 
+function printSpaceshipList(hitchedSpaceships) {
+    let spaceshipList = " "
+    spaceships.forEach((spaceship, index) => {
+        spaceshipList += (index + 1) + "- " + spaceship.name
+    })
+}
+
 let hitchedSpaceships = []
 
 let chosenOption
