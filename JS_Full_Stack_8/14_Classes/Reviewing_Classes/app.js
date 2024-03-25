@@ -17,7 +17,7 @@ class App {
     enrollSpaceship() {
         let spaceshipName = prompt("Qual o nome da nave?")
         let crewQuantity = prompt("Qual a quantidade de tripulantes?")
-        let spaceshipKind = this.askForSpaceshiKind()
+        let spaceshipKind = this.askForSpaceshipKind()
         if(spaceshipKind == "1"){
             let weaponsQuantity = ("Quantas armas a nave possui?")
             this.spaceship = new BattleSpaceship(spaceshipName, crewQuantity, weaponsQuantity)
@@ -28,7 +28,7 @@ class App {
 
     }
 
-    askForSpaceshiKind() {
+    askForSpaceshipKind() {
         let chosenOption
         while(!["1", "2"].includes(chosenOption)) {
             chosenOption = prompt("Qual o tipo da nave?\n1- Batalha\n2- Transporte")
