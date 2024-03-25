@@ -8,14 +8,14 @@ class App {
         let chosenOption
         do {
             chosenOption = this.showInitialMenu()
-            this.redirectFeature(chosenOption/)
+            this.redirectFeature(chosenOption)
         } while(chosenOption != "3")
         this.printAndExit()
     }
 
 
     enrollSpaceship() {
-        let spaceshipName - prompt("Qual o nome da nave?")
+        let spaceshipName = prompt("Qual o nome da nave?")
         let crewQuantity = prompt("Qual a quantidade de tripulantes?")
         let spaceshipKind = this.askForSpaceshiKind()
         if(spaceshipKind == "1"){
