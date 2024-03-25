@@ -2,7 +2,18 @@ class App {
     constructor(){
         this.spaceship = null
     }
-        
+    
+    start() {
+        this.enrollSpaceship
+        let chosenOption
+        do {
+            chosenOption = this.showInitialMenu()
+            this.redirectFeature(chosenOption/)
+        } while(chosenOption != "3")
+        this.printAndExit()
+    }
+
+
     enrollSpaceship() {
         let spaceshipName - prompt("Qual o nome da nave?")
         let crewQuantity = prompt("Qual a quantidade de tripulantes?")
@@ -30,5 +41,26 @@ class App {
                                 "1- Acelerar a nave\n" +
                                 "2- Trocar a nave\n" +
                                 "3- Imprimir e sair"
+        let chosenOption = prompt(promptMessage)
+        while(!["1", "2", "3"].includes(chosenOption)) {
+            chosenOption = prompt(promptMessage)
+        }
+        return chosenOption
+    }
+
+    redirectFeature(chosenOption) {
+        switch(chosenOption) {
+            case "1":
+                this.accelerateSpaceship()
+                break
+            case  "2": 
+                this.enrollSpaceship()
+                break
+        }
+
+        accelerateSpaceship() {
+            let acceleration = Number(prompt("Quanto gostaria de acelerar?"))
+            this.spaceship.speedUp()
+        }
     }
 }
