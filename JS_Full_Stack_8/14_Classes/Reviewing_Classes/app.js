@@ -19,10 +19,10 @@ class App {
         let crewQuantity = prompt("Qual a quantidade de tripulantes?")
         let spaceshipKind = this.askForSpaceshipKind()
         if(spaceshipKind == "1"){
-            let weaponsQuantity = ("Quantas armas a nave possui?")
+            let weaponsQuantity = prompt("Quantas armas a nave possui?")
             this.spaceship = new BattleSpaceship(spaceshipName, crewQuantity, weaponsQuantity)
         } else{
-            let sitsQuantity = ("Quantas armas a nave possui?")
+            let sitsQuantity = prompt("Quantos lugares a nave possui?")
             this.spaceship = new TransportSpaceship(spaceshipName, crewQuantity, sitsQuantity)
         }
 
