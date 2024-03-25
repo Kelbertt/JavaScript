@@ -4,7 +4,7 @@ class App {
     }
     
     start() {
-        this.enrollSpaceship
+        this.enrollSpaceship()
         let chosenOption
         do {
             chosenOption = this.showInitialMenu()
