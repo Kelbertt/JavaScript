@@ -53,14 +53,22 @@ class App {
             case "1":
                 this.accelerateSpaceship()
                 break
-            case  "2": 
+            case "2": 
                 this.enrollSpaceship()
                 break
         }
+    }
 
         accelerateSpaceship() {
             let acceleration = Number(prompt("Quanto gostaria de acelerar?"))
             this.spaceship.speedUp()
         }
+
+        printAndExit() {
+            let finalMessage = "Nome: " + this.spaceship.name + "\n" +
+                               "Quantidade de Tripulantes: " + this.spaceship.crewQuantity + "\n" +
+                               "Velocidade atual: " + this.spaceship.currentVelocity + "n"
+            alert(finalMessage)
+        }
+    
     }
-}
