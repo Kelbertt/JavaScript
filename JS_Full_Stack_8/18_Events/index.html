@@ -8,24 +8,24 @@
 </head>
 <body>
     <p>
-        <button>Clique-me</button>
+        <button onmouseover="overMe()">Clique-me</button>
     </p>
 
     <p>
         Focus
-        <input type="text" name="focus-text" onfocus="focusMe()"/>
+        <input type="text" name="focus-text" onfocus="focusMe()" />
     </p>
 
     <p>
         Blur
-        <input type="text" name="blur-text" onblur="blurMe()"/>
+        <input type="text" name="blur-text" onblur="blurMe()" />
     </p>
 
     <p>
         Change
-        <input type="text" name="change-text" onchange="changeMe()"/>
+        <input type="text" name="change-text" onchange="changeMe()" />
     </p>
 
-    <p>Passe o mouse sobre mim! </p>
+    <p onmouseover="overMe()">Passe o mouse sobre mim! </p>
 </body>
 </html>
