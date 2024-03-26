@@ -1,4 +1,4 @@
 function show() {
-    let element = document.getElementById("name")
+    let element = document.getElementById("fullname")
     console.log(element.value)
 }
