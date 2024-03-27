@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Residências </title>
-    <script src="index.js"></script>
+    <script src="home-registration.js"></script>
 </head>
 <body>
     <form id="informations">
+
+        <p>
+            <label>Área: </label>
+            <input type="text" id="area"/>
+        </p>
+
         <p>
             <label>Número da Residência: </label>
-            <input type="text" id="numero"/>
+            <input type="text" id="number"/>
         </p>
         
         <p>
             <label>Bairro: </label>
-            <input type="text" id="bairro"/>
+            <input type="text" id="neighborhood"/>
         </p>
 
         <p>
@@ -23,10 +29,7 @@
             <input type="text" id="city"/>
         </p>
 
-        <p>
-            <label>Área da Casa: </label>
-            <input type="text" id="area"/>
-        </p>
+        <button onclick="saveHouse()">Salvar</button>
 
     </form>
 </body>
