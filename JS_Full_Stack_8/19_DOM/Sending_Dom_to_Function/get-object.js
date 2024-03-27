@@ -1,5 +1,6 @@
-function sayMyFirstName() {
-    console.log("Say my first name")
+function sayMyFirstName(element) {
+    alert("Meu primeiro nome é " + element.value)
+
 }
 
 function sayMyLastName() {
