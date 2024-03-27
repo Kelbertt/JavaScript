@@ -7,7 +7,7 @@ function showInfo() {
     let optionsValue = []
     developerOptions.forEach(element => { optionsValue.push(element.value) })
 
-    let optionsChecked = developerOptions.join(", ")
+    let optionsChecked = optionsValue.join(", ")
     alert("Nome: " + name + "\nCor primária: " + favoriteColor + "\nGosta de Programar? " + likeProgramming + "\nConhecimentos em programção web: " + optionsChecked)
 
 }
