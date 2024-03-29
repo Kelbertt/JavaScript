@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms Event</title>
-    <script src="forms_selector.js"></script>
+    <script src="forms_event.js"></script>
 </head>
 <body>
-    
+    <form>
+        <p>
+            <label>Nome: </label>
+            <input type="text" name="name" />
+        </p>
+
+        <p>
+            <label>Programa em: </label>
+            <select name="programming-lang">
+                <option value="Javascript">Javascript</option>
+                <option value="Ruby">Ruby</option>
+                <option value="Python">Python</option>
+                <option value="PHP">PHP</option>
+            </select>
+        </p>
+
+        <button type="submit">Salvar</button>
+    </form>
 </body>
 </html>
