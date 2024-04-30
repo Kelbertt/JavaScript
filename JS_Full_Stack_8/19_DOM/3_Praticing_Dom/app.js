@@ -37,4 +37,8 @@ class App {
         buttonToRemove.innerText = "Remover"
         return buttonToRemove
     }
+
+    cleanForm() {
+        document.querySelector("input[name='area']").value = ""
+    }
 }
