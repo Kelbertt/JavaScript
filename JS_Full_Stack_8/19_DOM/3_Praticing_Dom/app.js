@@ -40,5 +40,8 @@ class App {
 
     cleanForm() {
         document.querySelector("input[name='area']").value = ""
+        document.querySelector("input[name='rented']").checked = false
     }
+
+    
 }
