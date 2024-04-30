@@ -2,8 +2,8 @@ class App {
     addProperty() {
         event.preventDefault()
         let kind = document.querySelector("select[name='kind']").value
-        let area = document.querySelector("select[name='area']").value
-        let rented = document.querySelector("select[name='rented']").checked
+        let area = document.querySelector("input[name='area']").value
+        let rented = document.querySelector("input[name='rented']").checked
         let property = new Property(kind, area, rented)
         this.addOnPropertiesList(property)
         this.cleanForm()
