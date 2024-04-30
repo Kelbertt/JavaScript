@@ -28,7 +28,7 @@ class App {
         rentedMark.style.color = "white"
         rentedMark.style.backgroundColor = "red"
         rentedMark.innerText = "ALUGADO"
-        return this.createRentedMark
+        return rentedMark
     }
 
     createRemoveButton() {
